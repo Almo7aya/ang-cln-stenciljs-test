@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+
+  <script type="module" src="/build/anghami-clone.esm.js"></script>
+  <script nomodule src="/build/anghami-clone.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Almo7aya/anghami-web-clone@0.0.3/css/styles-edited.css">
+
+  <style>
+    .header-user-profile {
+      background: none;
+    }
+    .player-play i::after {
+      content: ''
+    }
+    .material-icons.active {
+      background-color: var(--main-ang-color);
+    }
+  </style>
+
+</head>
+
+<body>
+  <section class="main-grid-container">
+
+    <ang-cln-header></ang-cln-header>
+
+    <!-- <ang-cln-navbar></ang-cln-navbar> -->
+
+    <ang-cln-player></ang-cln-player>
+
+  </section>
+</body>
+
+</html>
